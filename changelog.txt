@@ -1,0 +1,18 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-05-17
+
+  Major Features:
+    - Create a clean zone of configurable size around the spawn point upon map generation.
+    - Optionally remove all decoratives from this zone.
+    - Optionally remove all entities from this zone, optionally except for:
+      - Fish
+      - Ore patches
+      - Trees
+      - Rocks
+      - Crashed spaceship
+    - Optionally replace all floor tiles in this zone.
+      - Optionally except for water.
+      - Optionally with a different type to mark the center.
+    - Optionally create a barrier of trees near the border of the clean zone to create a safe zone inside.
+    - Optionally allow the tree barrier to break down as it absorbs pollution.
