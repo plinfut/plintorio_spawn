@@ -28,9 +28,6 @@ local cleanMax = storage.plintorio_spawn_radius * 32
 local cleanMin = -1 * cleanMax
 local safeMax = cleanMax - storage.plintorio_spawn_trees_width
 local safeMin = -1 * safeMax
-print("CleanMax: " .. cleanMax)
-print("SafeMax: " .. safeMax)
-print("TreeWidth: " .. storage.plintorio_spawn_trees_width)
 -- Define water tile types.
 local waterTypes = {
     ["deepwater"] = true,
