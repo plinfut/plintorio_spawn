@@ -1,8 +1,9 @@
 {
   "name": "plintorio_spawn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Plintorio - Clean & Safe Spawn Area",
   "author": "Plinfut",
   "homepage": "https://mods.factorio.com/mod/plintorio_spawn",
+  "description": "Modify the map generation process to make the spawn area cleaner and safer.",
   "factorio_version": "2.0"
 }

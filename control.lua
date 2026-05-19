@@ -107,7 +107,7 @@ end
 -- Specifically: tileCenter for coordinates between -3 and 3, false for water if keepWater is true 
 -- and tileMain for anything else.
 local function getTargetTileType(surface, x, y)
-    if x >= -3 and x <= 3 and y >= -3 and y <= 3 then
+    if x >= -3 and x <= 2 and y >= -3 and y <= 2 then
         return storage.plintorio_spawn_tile_center
     elseif storage.plintorio_spawn_keep_water and waterTypes[surface.get_tile(x, y).name] then
         return false

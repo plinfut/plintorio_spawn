@@ -1,4 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-05-19
+
+  Bugfixes:
+    - Tile fading made the center marking one tile bigger than intended and slightly off-center.
+
+  Info:
+    - Changed homepage to mod portal.
+    - Added short description for mod portal.
+    - Moved the backstory and design choices from the long description to the discussion area.
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.0
 Date: 2026-05-17
 
