@@ -5,21 +5,21 @@ A mod for the game Factorio that provides a cleaner and safer spawn area on new 
 ## Features
 
 - Create a clean zone of configurable size around the spawn point.
-  - Optionally remove decoratives (bushes, roots, decal, etc.) from this zone.
-  - Optionally remove entities from this zone. Each category can be configured to be removed or kept:
-    - Fish
-    - Ore patches
-    - Trees
-    - Rocks
-    - Crashed spaceship
-  - Optionally change the floor to a single tile type for the whole area.
-    - Optionally mark the center (spawn point) with a different type.
-    - Choose whether to only replace land, or water as well.
-      - If fish are not removed, water tiles holding these will be kept regardless of this setting, leaving some tiny puddles if the rest of the lake *is* removed.
-- Optionally create a tree barrier around the clean area to keep enemies out.
-  - Optionally allow the tree barrier to break down as trees die from absorbing pollution.
+    - Optionally remove decoratives (bushes, roots, decal, etc.) from this zone.
+    - Optionally remove entities from this zone. Each category can be configured to be removed or kept:
+        - Fish
+        - Ore patches
+        - Trees
+        - Rocks
+        - Crashed spaceship
+    - Optionally change the floor to a single tile type for the whole area.
+        - Optionally mark the center (spawn point) with a different type.
+        - Choose whether to only replace land, or water as well.
+          - If fish are not removed, water tiles holding these will be kept regardless of this setting, leaving some tiny puddles if the rest of the lake *is* removed.
+    - Optionally create a tree barrier around the clean area to keep enemies out.
+        - Optionally allow the tree barrier to break down as trees die from absorbing pollution.
 - Cleaning settings only apply to new maps. Existing saves created with this mod enabled will continue to use the cleaning settings and barrier width at the time of creation.
-  - Newer barrier decay settings do apply to all saves that include a protective tree barrier, but can be changed at any point.
+- Newer barrier decay settings do apply to all saves that include a protective tree barrier, but can be changed at any point.
 
 ## Known Issue
 
