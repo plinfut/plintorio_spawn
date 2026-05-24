@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2026-05-24
+
+  Minor Features:
+    - Changed clean zone size setting to use diameter in tiles instead of radius chunks in chunks.
+      - Make sure to convert this when loading a save created in version 1.0.0.
+      - 1 chunk radius = 64 tiles diameter.
+    - Changed cleaning settings to explicitly remove things rather than to keep some.
+    - Added setting for minimum tree damage before a tree qualifies for removal.
+
+  Optimizations:
+    - Restructured code for easier maintenance and better preparedness for game updates.
+
+---------------------------------------------------------------------------------------------------
 Version: 1.0.2
 Date: 2026-05-19
 
