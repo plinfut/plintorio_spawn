@@ -21,10 +21,6 @@ A mod for the game Factorio that provides a cleaner and safer spawn area on new 
 - Optionally create a tree barrier around the clean area to keep enemies out.
     - Optionally allow the tree barrier to break down as trees die from absorbing pollution.
 
-## Known Issue
-
-Not all dead trees will be removed, so the barrier will leave some traces forever unless chopped manually. (Some trees seem to never "die enough" to qualify, and lowering the threshold removed too many too early.) But enough trees will be removed to offer no protection whatsoever anymore when pollution spreads way too much, so the decay does accomplish its goal regardless of it not being as perfect as intended.
-
 ## Inspiration
 
 - [Safe Start](https://mods.factorio.com/mod/SafeStart) by [davidhindman](https://mods.factorio.com/user/davidhindman)
