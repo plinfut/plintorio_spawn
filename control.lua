@@ -1,8 +1,8 @@
 -- Import necessary modules
-local mSet = require("control.mod_settings")
-local cleaner = require("control.cleaner")
-local terrain = require("control.terrain")
-local barrier = require("control.barrier")
+local mSet = require("scripts.control.mod_settings")
+local cleaner = require("scripts.control.cleaner")
+local terrain = require("scripts.control.terrain")
+local barrier = require("scripts.control.barrier")
 
 --[[-----------------------------------------------------------------------------------------------
     HELPER FUNCTIONS
