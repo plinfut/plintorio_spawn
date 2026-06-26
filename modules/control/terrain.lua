@@ -32,7 +32,7 @@ local function changeTerrain(surface, area)
             end
         end
     end
-    surface.set_tiles(tiles, true, "abort_on_collision")
+    surface.set_tiles(tiles, false, "abort_on_collision")
 end
 
 --[[-----------------------------------------------------------------------------------------------
